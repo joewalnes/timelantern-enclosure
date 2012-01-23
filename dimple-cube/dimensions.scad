@@ -6,8 +6,9 @@
 // Magic OpenSCAD variable to improve the number of segments used 
 // in circles.
 // High values give smoother curves. Lower values render quickly.
+$fn = 48;
 //$fn = 96; // Smooth
-$fn = 12; // Fast
+//$fn = 12; // Fast
 
 function mm(m) = m;
 function inches(i) = mm(i) * 25.4; // inches -> mm
@@ -60,3 +61,7 @@ foot_pad_height = inches(0.03);
 
 lid_height = inches(1);
 lid_thickness = outer_wall;
+
+dimple_radius = inches(0.6);
+dimple_height= inches(0.2);
+
