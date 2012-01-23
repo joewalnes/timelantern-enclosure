@@ -49,8 +49,10 @@ light_tube_radius = inches(0.1);
 light_tube_hole_radius = inches(0.05);
 light_tube_clearance_top = inches(0.1);
 
-foot_pad_radius = mm(2.5);
-foot_pad_height = mm(0.5);
+// Prototype uses these:
+// http://www.amazon.com/gp/product/B003CIR2XU/
+foot_pad_radius = inches(0.25) / 2;
+foot_pad_height = inches(0.03);
 
 // --- Lid ---
 
