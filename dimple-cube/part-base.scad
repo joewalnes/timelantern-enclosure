@@ -35,7 +35,7 @@ module base() {
 
 		// Cutout for USB connector
 		translate([-usb_width / 2, outer_width / 2 - usb_depth, -usb_height]) {
-			cube([usb_width, usb_depth, usb_height]);
+			cube([usb_width, usb_depth + inches(0.1) /* extra bit */, usb_height]);
 		}
 
 		// Bottom holes for sensors
