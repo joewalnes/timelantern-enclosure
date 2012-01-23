@@ -9,3 +9,8 @@ module rounded_cube(width, depth, height, corner_radius) {
 		}
 	}
 }
+
+
+// Example
+$fn = 96; // Increase resolution of arc segments
+rounded_cube(8, 8, 6, 2);
