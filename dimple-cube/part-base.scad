@@ -4,8 +4,6 @@
 // - Joe Walnes (original design by Andrew Kim)
 
 // TODO: Screw threads
-// TODO: Space for label
-// TODO: Verify dimensions for: pads, label, screws
 
 include <dimensions.scad>;
 use <shape-rounded-cube.scad>;
