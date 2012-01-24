@@ -43,7 +43,7 @@ lip_padding = mm(0.5);
 base_height = inches(0.5);
 base_floor_thickness = inches(0.2);
 
-standoff_height = inches(0.2); // leave enough room for USB connector and tallest component
+standoff_height = inches(0.3); // leave enough room for USB connector and tallest component
 standoff_width = inches(0.1);
 standoff_corner_radius = inches(0.1);
 standoff_hole_radius = inches(0.02);
