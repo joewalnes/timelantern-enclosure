@@ -10,6 +10,9 @@ use <shape-dimple.scad>;
 // Disable dimple to speed up rendering.
 has_dimple = true;
 
+// For 3D printing, it's better to print upside down.
+upside_down = false;
+
 module lid() {
 	outer_width = pcb_width + outer_wall * 2;
 	lid_lip_height = lip_height - pcb_thickness;
@@ -46,4 +49,8 @@ module lid() {
 	}
 }
 
-lid();
+if (upside_down) {
+	rotate([180, 0,0]) lid();
+} else {
+	lid();
+}
