@@ -38,13 +38,13 @@ module lid() {
 		}
 		// Hole for dimple
 		if (has_dimple) {
-			cylinder(r=dimple_radius, h=outer_wall, 100);
+			cylinder(r=dimple_radius, h=lid_thickness, 100);
 		}
 	}
 	// Dimple
 	if (has_dimple) {
-		translate([0, 0, lid_height - outer_wall]) {
-			dimple(dimple_radius, outer_wall, -dimple_height);
+		translate([0, 0, lid_height - lid_thickness]) {
+			dimple(dimple_radius, lid_thickness, -dimple_height);
 		}
 	}
 }
