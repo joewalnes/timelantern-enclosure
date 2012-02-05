@@ -16,8 +16,8 @@ upside_down = false;
 module lid() {
 	outer_width = pcb_width + outer_wall * 2;
 	lid_lip_height = lip_height - pcb_thickness;
-	lid_lip_thickness = mm(0.5); // TODO
-	lid_lip_groove = outer_wall - lid_lip_thickness;
+	lid_lip_groove = (outer_width - pcb_width) / 2 - lip_padding;
+
 	difference() {
 		union() {
 			// Solid cube, without lip
