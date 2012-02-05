@@ -62,6 +62,6 @@ foot_pad_height = inches(0.03);
 lid_height = inches(1);
 lid_thickness = mm(2.1); // thick enough to defuse light, but still leave space for corner PCB screw heads
 
-dimple_radius = inches(0.6);
-dimple_height= inches(0.2);
+dimple_radius = inches(0.5);
+dimple_height= inches(0.15);
 
