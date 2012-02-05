@@ -139,9 +139,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.2902781"
+     inkscape:zoom="0.80973559"
      inkscape:cx="383.11787"
-     inkscape:cy="503.87135"
+     inkscape:cy="891.04076"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -815,9 +815,9 @@
        id="text8935"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan8937"
          x="502.99567"
-         y="1155.4064">0.796&quot;</tspan></text>
+         y="1155.4064"
+         id="tspan3144">0.797&quot;</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -935,5 +935,16 @@
          id="tspan10157"
          x="48.902355"
          y="1397.2985">0.147&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="624.81494"
+       y="1124.8425"
+       id="text3148"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3150"
+         x="624.81494"
+         y="1124.8425" /></text>
   </g>
 </svg>
